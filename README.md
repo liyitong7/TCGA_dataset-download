@@ -18,3 +18,7 @@ TCGA数据集下载器
 6.过滤完以后，页面会显示几千上万个文件。（Total of 11505 Files， 10517 Cases， 48.74 GB）
 点击页面右上角全选(或者按需勾选)，然后点击"Add toCart"(加入购物车)。
 或者点击Mainfest，下载好文件清单，然后进行下载。
+①Windows：带参执行：gdc_download2.exe mainfest.txt
+或者把mainfest.txt文件拖曳到gdc_download2.exe上。
+②Linux：
+python gdc2.py mainfest.txt
